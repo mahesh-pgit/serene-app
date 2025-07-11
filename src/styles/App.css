@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+html {
+	font-size: clamp(14px, 1vw + 0.6rem, 16px);
+}
+
+.tooltip-arrow-left::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -11px;
+	transform: translateY(-50%);
+	border-width: 6px;
+	border-color: transparent transparent transparent #fb2c36;
+}
+
+.tooltip-arrow-right::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -11px;
+	transform: translateY(-50%);
+	border-width: 6px;
+	border-color: transparent #fb2c36 transparent transparent;
+}
+
+.toast {
+	animation: fadein 0.2s forwards, fadeout 0.5s ease-in-out 4.5s forwards;
+}
+
+@keyframes fadein {
+	from {
+		transform: translateY(0);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(10px);
+		opacity: 1;
+	}
+}
+
+@keyframes fadeout {
+	to {
+		transform: translateY(0px);
+		opacity: 0;
+	}
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+	width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+	background: rgb(255, 255, 255, 0.1);
+	border-radius: 999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	background-color: #c0c0c1;
+	border-radius: 999px;
+}
+
+/* Firefox support */
+.custom-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: #c0c0c1 rgb(255, 255, 255, 0.1);
+}
+
+.scroll-smooth {
+	scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Edge(latest) */
+}
+
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge(old) */
+	scrollbar-width: none; /* Firefox */
+}

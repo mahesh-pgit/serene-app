@@ -1,0 +1,41 @@
+{
+  "name": "serene-app",
+  "version": "1.0.0",
+  "author": "Mahesh Narava",
+  "description": "Serene | Your Personal Calm and Peaceful Kanban Board",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host --open",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "Serene",
+    "Trello",
+    "Clone",
+    "Kanban",
+    "Board"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahesh-pgit/serene-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahesh-pgit/serene-app/issues"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "vite": "^7.0.0"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
