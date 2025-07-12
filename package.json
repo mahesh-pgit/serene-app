@@ -2,7 +2,7 @@
   "name": "serene-app",
   "version": "1.0.0",
   "author": "Mahesh Narava",
-  "description": "Serene | Your Personal Calm and Peaceful Kanban Board",
+  "description": "Serene | A Calm & Personal Kanban-Inspired Task Board",
   "license": "ISC",
   "type": "module",
   "scripts": {
