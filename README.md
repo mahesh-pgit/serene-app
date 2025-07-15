@@ -8,7 +8,7 @@ Inspired by the visual style of Kanban, but adapted for flexible, everyday use, 
 
 ## 📸 Demo
 
-Live Preview: 👉 [Check it out on Vercel](https://serene.vercel.app)
+Live Preview: 👉 [Check it out on Vercel](https://sereneapp.vercel.app)
 
 ## 🧩 Features
 
