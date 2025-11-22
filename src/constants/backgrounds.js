@@ -24,23 +24,23 @@ export const backgrounds = [
 	},
 	{
 		id: 5,
+		bgStyles: "bg-[url('../assets/backgrounds/blurred-lights.jpg')]",
+		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/blurred-lights.jpg')]",
+	},
+	{
+		id: 6,
 		bgStyles: "bg-[url('../assets/backgrounds/blurred-vivid.jpg')]",
 		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/blurred-vivid.jpg')]",
 	},
 	{
-		id: 6,
+		id: 7,
 		bgStyles: "bg-[url('../assets/backgrounds/gradient-lights.jpg')] max-md:text-white",
 		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/gradient-lights.jpg')]",
 	},
 	{
-		id: 7,
+		id: 8,
 		bgStyles: "bg-[url('../assets/backgrounds/gradient-beach.jpg')]",
 		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/gradient-beach.jpg')]",
-	},
-	{
-		id: 8,
-		bgStyles: "bg-[url('../assets/backgrounds/gradient-orange.jpg')]",
-		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/gradient-orange.jpg')]",
 	},
 	{
 		id: 9,
@@ -49,7 +49,7 @@ export const backgrounds = [
 	},
 	{
 		id: 10,
-		bgStyles: "bg-[url('../assets/backgrounds/gradient-sky.jpg')]",
-		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/gradient-sky.jpg')]",
+		bgStyles: "bg-[url('../assets/backgrounds/gradient-peace.jpg')]",
+		sidebarStyles: "max-md:bg-[url('../assets/backgrounds/gradient-peace.jpg')]",
 	},
 ];
